@@ -1,0 +1,200 @@
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('img/Asphalt.jpg');
+    /*url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080')*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  section {
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    background-color: #f1f4fa;
+}
+
+.wrap-text {
+    display: flex;
+    background: white;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.wrap-text:hover {
+    background: linear-gradient(135deg,#fffbd5 0%,#b20a2c 100%);
+    color: white;
+}
+
+.ico-wrap {
+    margin: auto;
+}
+
+.mbr-iconfont {
+    font-size: 4.5rem !important;
+    color: #313131;
+    margin: 1rem;
+    padding-right: 1rem;
+}
+.vcenter {
+    margin: auto;
+}
+
+.mbr-section-title3 {
+    text-align: left;
+}
+h2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.display-5 {
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 1.4rem;
+}
+.mbr-bold {
+    font-weight: 700;
+}
+
+
+ p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    line-height: 25px;
+}
+.display-6 {
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 1re}
+.titleText {
+    color: white;
+}
+
+
+@import url(http://fonts.googleapis.com/css?family=Anaheim);
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+    box-sizing: border-box;
+}
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+html,
+
+body{
+	background-image: linear-gradient(#df4664 0%, #fffbd5 100%);
+}
+.title3D{
+	display: table;
+	margin: 5% auto 0;
+	text-transform: uppercase;
+	font-family: 'Anaheim', sans-serif;
+	font-size: 4em;
+	font-weight: 400;
+	text-shadow: 0 1px white, 0 2px black;
+}
+.container3D{
+	margin: 4% auto;
+	width: 210px;
+	height: 140px;
+	position: relative;
+	perspective: 1000px;
+}
+#carousel3D{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	transform-style: preserve-3d;
+	animation: rotation 40s infinite linear;
+}
+#carousel3D:hover{
+	animation-play-state: paused;
+}
+#carousel3D figure{
+	display: block;
+	position: absolute;
+	width: 90%;
+	height: 50%px;
+	left: 10px;
+	top: 10px;
+	background: black;
+	overflow: hidden;
+	border: solid 5px black;
+}
+#carousel3D figure:nth-child(1){transform: rotateY(0deg) translateZ(288px);}
+#carousel3D figure:nth-child(2) { transform: rotateY(40deg) translateZ(288px);}
+#carousel3D figure:nth-child(3) { transform: rotateY(80deg) translateZ(288px);}
+#carousel3D figure:nth-child(4) { transform: rotateY(120deg) translateZ(288px);}
+#carousel3D figure:nth-child(5) { transform: rotateY(160deg) translateZ(288px);}
+#carousel3D figure:nth-child(6) { transform: rotateY(200deg) translateZ(288px);}
+#carousel3D figure:nth-child(7) { transform: rotateY(240deg) translateZ(288px);}
+#carousel3D figure:nth-child(8) { transform: rotateY(280deg) translateZ(288px);}
+#carousel3D figure:nth-child(9) { transform: rotateY(320deg) translateZ(288px);}
+
+.img3D{
+	cursor: pointer;
+	transition: all .5s ease;
+}
+.img3D:hover{
+    transform: scale(1.2,1.2);
+}
+
+@keyframes rotation{
+	from{
+		transform: rotateY(0deg);
+	}
+	to{
+		transform: rotateY(360deg);
+	}
+} 
+
+
+.app-features {
+    padding-bottom: 30px;
+    text-align: center;
+}
+.section-description {
+    margin-top: 60px;
+}
+
+.divider-1 span {
+    background: #dddddd none repeat scroll 0 0;
+    display: inline-block;
+    height: 1px;
+    width: 200px;
+}
+.section-description p {
+    margin-top: 20px;
+    
+}
+.app-features-box {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+}
+.app-features-box .app-features-box-icon {
+    color: #be5254;
+    font-size: 80px;
+    line-height: 80px;
+}
+.app-features-box h3 {
+    margin-top: 15px;
+}
+h3 {
+    color: #555555;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+
+.section-container-image-bg, .section-container-image-bg h2, .section-container-image-bg h3 {
+    color: #ffffff;
+}
+.section-container-image-bg .divider-1 span {
+    background: #ffffff none repeat scroll 0 0;
+}
