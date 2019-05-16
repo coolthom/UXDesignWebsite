@@ -1,16 +1,25 @@
-.masthead {
+/*.masthead {
     height: 100vh;
     min-height: 500px;
     background-image: url('img/Asphalt.jpg');
     /*url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080')*/
-    background-size: cover;
+    /*background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+  }*/
+  .parallax {
+    background-image: url('img/Asphalt.jpg');
+  
+    height: 100%; 
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   section {
-    padding-top: 4rem;
+    padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: #f1f4fa;
 }
 
 .wrap-text {
@@ -86,7 +95,7 @@ h2 {
 html,
 
 body{
-	background-image: linear-gradient(#df4664 0%, #fffbd5 100%);
+	/*background-image: linear-gradient(#003973 0%, #E5E5BE 100%);*/
 }
 .title3D{
 	display: table;
@@ -175,9 +184,14 @@ body{
     padding-bottom: 15px;
     padding-top: 15px;
     text-align: center;
+    background: white;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
 }
 .app-features-box .app-features-box-icon {
-    color: #be5254;
+    color: #155ca3;
     font-size: 80px;
     line-height: 80px;
 }
