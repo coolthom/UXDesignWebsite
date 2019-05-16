@@ -18,8 +18,8 @@
     background-size: cover;
   }
   section {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
 }
 
 .wrap-text {
@@ -57,7 +57,7 @@ h2 {
     font-size: 1.4rem;
 }
 .mbr-bold {
-    font-weight: 700;
+    margin-top: 1rem;
 }
 
 
@@ -182,6 +182,14 @@ body{
     background: white;
     padding: 1rem 1rem 1rem 1rem;
     border-radius: 0.5rem;
+    box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+.app-features-title {
+    background: white;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 0.5rem;
+    width: fit-content;
     box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1);
     margin-bottom: 2rem;
 }
