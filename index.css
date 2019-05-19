@@ -157,7 +157,10 @@ body{
 	}
 } 
 
-
+.logo {
+    height: 50px;
+    margin-right: 5px;
+}
 .app-features {
     padding-bottom: 30px;
     text-align: center;
